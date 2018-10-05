@@ -6,6 +6,8 @@ In this lesson, we will introduce what class and instance objects are in Python 
 
 ## Objectives
 
+You will be able to: 
+
 * Describe a class and how it creates objects
 * Describe an instance object
 * Create an instance of class
@@ -43,14 +45,6 @@ class Ride:
     
 ```
 
-
-      File "<ipython-input-1-81f6a00d9a7f>", line 2
-        
-        ^
-    SyntaxError: unexpected EOF while parsing
-    
-
-
 So, let's add a block of code to our `Ride` class and see what happens. Python has a keyword `pass` which we can use in this instance to tell our code to do nothing and continue executing. `pass` can be used for times where a block of code is syntatically necessary, like defining a class or function. Feel free to read more about `pass` [here](https://docs.python.org/2/tutorial/controlflow.html#pass-statements).
 
 
@@ -67,9 +61,6 @@ first_ride = Ride()
 print(first_ride)
 ```
 
-    <__main__.Ride object at 0x0000020862C62C50>
-    
-
 Okay, we ***instantiated*** our first ride! We did this by invoking, or calling the Ride class. We invoke a class the same way we do with functions, by adding the `()` to the end of the class name, (i.e. `Ride()`).
 
 **Instantiate** means to bring a new object to life (off the assembly line). We instantiated a new ride when we invoked our class, `Ride()`, which made a new ride in our rideshare program.
@@ -84,10 +75,6 @@ print(Ride)
 print(first_ride)
 ```
 
-    <class '__main__.Ride'>
-    <__main__.Ride object at 0x0000020862C62C50>
-    
-
 Great, now let's dive a little deeper into instances. We made one already, let's make a couple more and compare them:
 
 
@@ -99,11 +86,6 @@ print(second_ride)
 print(third_ride)
 ```
 
-    <__main__.Ride object at 0x0000020862C62C50>
-    <__main__.Ride object at 0x0000020862C62F98>
-    <__main__.Ride object at 0x0000020862C62F60>
-    
-
 Three rides! Alright, let's look at these. They seem pretty much the same, except the funny numbers at the end. Those are the IDs which represent a place in memory where the computer stores these objects. Additionally, since the IDs are unique, this means that each instance object is a **completely unique object** although they are all borne from the same `Ride` class. We can prove this by comparing the objects below:
 
 
@@ -112,11 +94,6 @@ print(first_ride is second_ride)
 print(first_ride == second_ride)
 print(first_ride is first_ride)
 ```
-
-    False
-    False
-    True
-    
 
 As we can see, `first_ride` is only equal to itself even though at this point these objects all have identical attributes and methods (or lack thereof) with the exception of their IDs in our computer's memory.
 
