@@ -10,11 +10,11 @@ You will be able to:
 
 * Describe a class and how it creates objects
 * Describe an instance object
-* Create an instance of class
+* Create an instance of a class
 
 ## Defining a Class
 
-Imaginge you are starting a ride share business. Let's call it *fuber*. Rides all generally have the same basic information. They have a driver, passenger(s), origin, destination, car information, and price. You plan on having a pretty large client base, so, you could imagine having many rides being taken every day.
+Imagine you are starting a ride share business. Let's call it *fuber*. Rides all generally have the same basic information. They have a driver, passenger(s), origin, destination, car information, and price. You plan on having a pretty large client base, so, you could imagine having many rides being taken every day.
 
 So, you will need to have a way to bundle up and operate on all the information you mentioned earlier about a particular ride. And as you said, our business is going to really take off, so, you are going to need to create rides over and over.
 
