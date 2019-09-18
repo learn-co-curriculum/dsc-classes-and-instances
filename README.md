@@ -2,7 +2,7 @@
 # Classes and Instances
 
 ## Introduction
-In this lesson, you'll take a look at class and instance objects in Python and how to create them. As discussed, classes are our way of creating code objects. A Python class can be thought of as the blueprints for creating a code object (or **instance object**). It has both the layout for new objects as well as the ability to create those objects. When you **initialize**, or make a new instance object from a class, you are essentially pressing a button on an assembly line that instantly rolls out a new instance object. For example, if you were dealing with a `Car` class, you would get a brand new car from the assembly line. In cases where you want to create multiple objects, you can see how this functionality would be extremely useful.
+In this lesson, you'll take a look at class and instance objects in Python and how to create them. As discussed, classes are our way of creating code objects. A Python class can be thought of as the blueprints for creating a code object (or **instance object**). It has both the layout for new objects as well as the ability to create those objects. When you **initialize** or make a new instance object from a class, you are essentially pressing a button on an assembly line that instantly rolls out a new instance object. For example, if you were dealing with a `Car` class, you would get a brand new car from the assembly line. In cases where you want to create multiple objects, you can see how this functionality would be extremely useful.
 
 ## Objectives
 
@@ -45,7 +45,7 @@ class Ride:
     
 ```
 
-So, let's add a block of code to our `Ride` class and see what happens. Python has a keyword `pass` which you can use in this instance to tell our code to do nothing and continue executing. `pass` can be used for times where a block of code is syntatically necessary, like defining a class or function. Feel free to read more about `pass` [here](https://docs.python.org/2/tutorial/controlflow.html#pass-statements).
+So, let's add a block of code to our `Ride` class and see what happens. Python has a keyword `pass` which you can use in this instance to tell our code to do nothing and continue executing. `pass` can be used for times where a block of code is syntactically necessary, like defining a class or function. Feel free to read more about `pass` [here](https://docs.python.org/2/tutorial/controlflow.html#pass-statements).
 
 
 ```python
@@ -86,7 +86,7 @@ print(second_ride)
 print(third_ride)
 ```
 
-Three rides! Alright, let's look at these. They seem pretty much the same, except the funny numbers at the end. Those are the IDs which represent a place in memory where the computer stores these objects. Additionally, since the IDs are unique, this means that each instance object is a **completely unique object** although they are all borne from the same `Ride` class. You can prove this by comparing the objects below:
+Three rides! Alright, let's look at these. They seem pretty much the same, except the funny numbers at the end. Those are the IDs that represent a place in memory where the computer stores these objects. Additionally, since the IDs are unique, this means that each instance object is a **completely unique object** although they are all borne from the same `Ride` class. You can prove this by comparing the objects below:
 
 
 ```python
@@ -99,4 +99,4 @@ As you can see, `first_ride` is only equal to itself even though at this point t
 
 ## Summary
 
-In this lesson you learned about what you use classes for and how to define them. They are the blueprints for creating instance objects and they allow us to create instance objects with the same or similar attributes and methods. However, all instance objects are produced with unique IDs, making them unique objects.
+In this lesson, you learned about what you use classes for and how to define them. They are the blueprints for creating instance objects and they allow us to create instance objects with the same or similar attributes and methods. However, all instance objects are produced with unique IDs, making them unique objects.
