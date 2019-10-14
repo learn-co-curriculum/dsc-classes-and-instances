@@ -8,7 +8,7 @@ In this lesson, you'll take a look at class and instance objects in Python and h
 
 You will be able to: 
 
-* Describe a class and how it creates objects
+* Describe a class and how it can be used to create objects
 * Describe an instance object
 * Create an instance of a class
 
